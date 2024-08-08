@@ -105,7 +105,8 @@ a {
 .order_now:hover,
 .order_now:focus {
   color: var(--white);
-  border-color: var(--white);
+  background: transparent;
+  border: solid;
 }
 
 .btn_red {
@@ -118,5 +119,5 @@ a {
 .btn_red:focus {
   color: var(--light-red);
   background: transparent;
-  border-color: var(--light-red);
+  border: solid;
 }

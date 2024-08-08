@@ -160,6 +160,7 @@
 }
 
 .menu_section .add_to_card a {
+    color: var(--light-black);
     background: var(--yellow);
     display: inline-block;
     font-size: 1rem;
@@ -167,6 +168,7 @@
     font-weight: 700;
     padding: 8px 14px;
     border-radius: 4px;
+    text-decoration: none;
     opacity: 0;
     transform: translateY(100px);
     -webkit-transition: all 500ms ease-in-out;

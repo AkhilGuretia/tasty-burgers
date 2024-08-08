@@ -1,5 +1,15 @@
+import Layout from "../../components/Layouts/Layout";
+import Section1 from "./Section1";
+import "../../styles/HomeStyles.css";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Layout>
+        <Section1 />
+      </Layout>
+    </>
+  );
 }
 
 export default Home;

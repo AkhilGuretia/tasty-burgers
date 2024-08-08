@@ -113,6 +113,7 @@ a {
   color: var(--white);
   background: var(--light-red);
   border-color: var(--light-red);
+  text-decoration: none;
 }
 
 .btn_red:hover,
@@ -120,4 +121,5 @@ a {
   color: var(--light-red);
   background: transparent;
   border: solid;
+  text-decoration: none;
 }

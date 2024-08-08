@@ -387,6 +387,7 @@ footer .calling {
     font-size: 1.8rem;
     font-weight: 800;
     color: var(--yellow);
+    text-decoration: none;
 }
 
 footer ul li {
@@ -394,6 +395,11 @@ footer ul li {
     margin-right: 20px;
     font-size: 1.4rem;
     cursor: pointer;
+}
+
+footer .copy_right a {
+    color: var(--light-black);
+    text-decoration: none;
 }
 
 footer .copy_right {

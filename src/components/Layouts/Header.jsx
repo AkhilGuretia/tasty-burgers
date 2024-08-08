@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo/logo.png";
-import "../../styles/HeaderStyles.css";
+import "../../styles/Headerstyles.css";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
